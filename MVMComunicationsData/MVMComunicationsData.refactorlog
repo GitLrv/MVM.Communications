@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="56e0839f-0126-416d-9a34-16fe9165775f" ChangeDateTime="02/02/2021 21:08:07">
+    <Property Name="ElementName" Value="[dbo].[ConsecutiveControl].[Consecutive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ConsecutiveControl]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Sec" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="228b0c16-6850-4f22-9a26-805a8dac28a1" ChangeDateTime="02/02/2021 21:08:24">
+    <Property Name="ElementName" Value="[dbo].[MsgRecord].[Consecutive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MsgRecord]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Sec" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5a519df0-ed36-4783-b9d1-35ab8da8ac7d" ChangeDateTime="02/02/2021 21:08:45">
+    <Property Name="ElementName" Value="[dbo].[MsgContact].[MsgRecordConsecutive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MsgContact]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MsgRecordSec" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b658f8ce-df6e-4f04-9fbc-57c1af55bae7" ChangeDateTime="02/02/2021 21:09:16">
+    <Property Name="ElementName" Value="[dbo].[Digitalization].[MsgRecordConsecutive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Digitalization]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MsgRecordSec" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0793631b-656e-4688-8111-efa19a1425df" ChangeDateTime="02/02/2021 21:11:02">
+    <Property Name="ElementName" Value="[dbo].[MsgRecord].[CommunicationTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MsgRecord]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MsgTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6d79b8b-4d68-4337-9e48-004c5c88f4ec" ChangeDateTime="02/02/2021 21:11:11">
+    <Property Name="ElementName" Value="[dbo].[MsgRecord].[CommunicationStatusId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MsgRecord]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MsgStatusId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f4c77430-511b-4f6e-98e2-bc96ff55a2db" ChangeDateTime="02/02/2021 21:37:52">
+    <Property Name="ElementName" Value="[dbo].[ConsecutiveControl].[ComunicationTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ConsecutiveControl]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MsgTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="af740117-7bcb-4d95-afaf-57b03a596be7" ChangeDateTime="02/03/2021 02:20:45">
+    <Property Name="ElementName" Value="[dbo].[MsgRecord].[DocumentManagerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MsgRecord]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DocManagerContactId" />
+  </Operation>
+</Operations>
