@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVM.Communications.DAL", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVM.Communications.BLL", "MVM.Communications.BLL\MVM.Communications.BLL.csproj", "{9D1236D1-2F6B-4B87-8FA4-CA92F087B530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVM.Communications.EFWebAPI", "MVM.Communications.EFWebAPI\MVM.Communications.EFWebAPI.csproj", "{3C3D0FBA-497A-443D-ACF8-3D96B4CA8CD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVM.Communications.EFWebAPI", "MVM.Communications.EFWebAPI\MVM.Communications.EFWebAPI.csproj", "{3C3D0FBA-497A-443D-ACF8-3D96B4CA8CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVM.Communications.UI", "MVM.Communications.UI\MVM.Communications.UI.csproj", "{EB7A5DC7-EB39-448C-AE07-081A89DD87B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{3C3D0FBA-497A-443D-ACF8-3D96B4CA8CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C3D0FBA-497A-443D-ACF8-3D96B4CA8CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C3D0FBA-497A-443D-ACF8-3D96B4CA8CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7A5DC7-EB39-448C-AE07-081A89DD87B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7A5DC7-EB39-448C-AE07-081A89DD87B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7A5DC7-EB39-448C-AE07-081A89DD87B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7A5DC7-EB39-448C-AE07-081A89DD87B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
